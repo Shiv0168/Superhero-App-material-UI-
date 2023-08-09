@@ -1,0 +1,67 @@
+<div class="card-container">
+  <mat-chip-listbox>
+    <mat-chip> Create a Superhero </mat-chip>
+  </mat-chip-listbox>
+</div>
+
+
+<div class="card-container">
+  <mat-card class="card">
+    <div class="card-container" >
+    <form
+      class="form-container"
+      [formGroup]="addSuperHeroForm"
+      (ngSubmit)="create()"
+    >
+      <mat-form-field appearance="fill" style="width: 400px">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Enter name.." formControlName="name" />
+      </mat-form-field>
+
+      <mat-form-field
+        appearance="fill"
+        style="width: 400px"
+        formControlName="imageUrl"
+      >
+        <mat-label>Image URL</mat-label>
+        <input matInput placeholder="Enter imageUrl.." formControlName="imageUrl" />
+      </mat-form-field>
+
+      <mat-form-field style="width: 400px">
+        <mat-label>Franchise</mat-label>
+        <mat-select formControlName="franchise">
+          <mat-option value="marvel">Marvel</mat-option>
+          <mat-option value="DC">DC</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-radio-group
+        aria-label="Select an option"
+        formControlName="gender"
+        style="width: 400px"
+      >
+        <mat-radio-button value="male">Male</mat-radio-button>
+        <mat-radio-button value="female">Female</mat-radio-button>
+      </mat-radio-group>
+      <button mat-raised-button color="primary" style="margin: 10px 0">
+        Create a Superhero
+      </button>
+      <button mat-raised-button type="reset" color="accent" style="margin: 10px 0">
+        Reset
+      </button>
+    </form>
+    <div>
+      <img
+        mat-card-image
+        style="width: 300px; height: 300px"
+        src="{{
+          this.addSuperHeroForm.get('imageUrl')?.value
+            ? this.addSuperHeroForm.get('imageUrl')?.value
+            : 'https://images.unsplash.com/photo-1556707752-481d500a2c58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+        }}"
+        alt="superHero"
+      />
+    </div>
+</div>
+  </mat-card>
+</div>

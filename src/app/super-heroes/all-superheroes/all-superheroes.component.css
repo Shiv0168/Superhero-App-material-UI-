@@ -1,0 +1,23 @@
+.example-card {
+    max-width: 300px;
+    max-height: 400px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+  .card-container{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+
+  .add-box{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .filter-box{
+    display: flex;
+    margin: 15px;
+  }

@@ -1,0 +1,170 @@
+{
+  "superHeroes": [
+    {
+      "id": 1,
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1568833450751-fba3c6b2d129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "franchise": "Marvel",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "Bat Men",
+      "imageUrl": "https://images.unsplash.com/photo-1600480505021-e9cfb05527f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=866&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "name": "Thor",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "name": "Spidy",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "DC",
+      "gender": "male",
+      "id": 6
+    },    {
+      "id": 7,
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1568833450751-fba3c6b2d129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "franchise": "Marvel",
+      "gender": "male"
+    },
+    {
+      "id": 8,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "id": 9,
+      "name": "Bat Men",
+      "imageUrl": "https://images.unsplash.com/photo-1600480505021-e9cfb05527f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=866&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "name": "Thor",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 10
+    },
+    {
+      "name": "Spidy",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 11
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "DC",
+      "gender": "male",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1568833450751-fba3c6b2d129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "franchise": "Marvel",
+      "gender": "male"
+    },
+    {
+      "id": 14,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "id": 15,
+      "name": "Bat Men",
+      "imageUrl": "https://images.unsplash.com/photo-1600480505021-e9cfb05527f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=866&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "name": "Thor",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 16
+    },
+    {
+      "name": "Spidy",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 17
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "DC",
+      "gender": "male",
+      "id": 18
+    },    {
+      "id": 19,
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1568833450751-fba3c6b2d129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "franchise": "Marvel",
+      "gender": "male"
+    },
+    {
+      "id": 20,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "id": 21,
+      "name": "Bat Men",
+      "imageUrl": "https://images.unsplash.com/photo-1600480505021-e9cfb05527f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=866&q=80",
+      "franchise": "DC",
+      "gender": "male"
+    },
+    {
+      "name": "Thor",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 22
+    },
+    {
+      "name": "Spidy",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "male",
+      "id": 23
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "DC",
+      "gender": "male",
+      "id": 24
+    }
+  ]
+}

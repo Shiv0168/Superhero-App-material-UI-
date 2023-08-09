@@ -1,0 +1,60 @@
+<div class="filter-box">
+  <mat-form-field>
+    <mat-label>--sorting--</mat-label>
+    <mat-select [formControl]="sortingControl">
+      <mat-option value="">-select-</mat-option>
+      <mat-option value="id-by-asc">ID by Asc</mat-option>
+      <mat-option value="id-by-desc">ID by Desc</mat-option>
+      <mat-option value="franchise-by-asc">Franchise by Asc</mat-option>
+      <mat-option value="franchise-by-desc">Franchise by Desc</mat-option>
+      <mat-option value="gender-by-asc">Gender by Asc</mat-option>
+      <mat-option value="gender-by-desc">Gender by Desc</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field class="example-form-field" style="margin: 0 20px;">
+    <mat-label>Search ...</mat-label>
+    <input matInput type="text" [formControl]="searchControl">
+    <button  matSuffix mat-icon-button aria-label="Clear" (click)="textSearch()">
+      <mat-icon>Search</mat-icon>
+    </button>
+  </mat-form-field>
+  <div style="margin: 0 20px;">
+    <mat-paginator [length]="totalRecords"
+              [pageSize]="pageSize"
+              [pageSizeOptions]="[5, 10, 15]"
+              [pageIndex]="pageIndex"
+              (page)="handePageEvent($event)"
+              aria-label="Select page">
+</mat-paginator>
+  </div>
+</div>
+
+
+<div class="add-box">
+    <a routerLink="add" mat-raised-button color="primary">Add</a>
+</div>
+
+<div class="card-container">
+    <mat-card class="example-card" *ngFor="let superHero of allSuperheroes">
+        <mat-card-header>
+          <mat-card-title>{{superHero.name}}</mat-card-title>
+          <button mat-icon-button color="warn">
+            {{superHero.id}}
+          </button>
+        </mat-card-header>
+        <img mat-card-image src="{{superHero.imageUrl}}" alt="{{superHero.name}}">
+        <mat-card-content>
+          <p>
+            Franchise - {{superHero.franchise}}
+          </p>
+          <p>
+            Gender - {{superHero.gender}}
+          </p> 
+        </mat-card-content>
+        <mat-card-actions>
+          <a routerLink="/edit/{{superHero.id}}" mat-raised-button color="primary">Edit</a>
+          <a (click)="deleteItem(superHero.id)" mat-raised-button color="warm" style="margin-left: 10px;">Delete</a>
+        </mat-card-actions>
+    </mat-card>
+</div>
